@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GoToScreen.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\General Scripts\GoToScreen.cs">
     <Files>
-      <File FileName="Assets\Scripts\GoToScreen.cs" Line="29" Column="50" />
+      <File FileName="Assets\Standard Assets\Scripts\General Scripts\GoToScreen.cs" Line="28" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
