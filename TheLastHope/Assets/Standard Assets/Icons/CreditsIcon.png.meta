@@ -1,6 +1,8 @@
 fileFormatVersion: 2
-guid: bb41debd48131f14cb43b9bc31776e2a
+guid: 0f441d06c6ee0b1428cd6002ea24f009
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: CreditsIcon
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

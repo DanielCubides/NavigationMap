@@ -1,6 +1,8 @@
 fileFormatVersion: 2
-guid: fdbd792db0d76f4448d85f7d1b682e85
+guid: 875b81e56ff1dc140937acda6d445e75
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: NewGameIcon
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

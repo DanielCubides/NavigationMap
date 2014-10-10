@@ -3,10 +3,12 @@ using System.Collections;
 
 public class GoToScreen : MonoBehaviour {
 	public string nombreNivel;
+	public float escalamiento = 0.01f; 
 	//private bool isSelected = false;
 	// Use this for initialization
+
 	void Start () {
-	
+
 	}
 	
 	// Update is called once per frame
@@ -16,18 +18,17 @@ public class GoToScreen : MonoBehaviour {
 
 	void OnMouseDown() {
 		Application.LoadLevel (nombreNivel);
-
 	}
 
-	void OnMouseEnter() {
-		transform.localScale = new Vector3 (transform.localScale.x + 0.01f,transform.localScale.y + 0.01f, transform.localScale.z);
-		Vector3 seleccion = new Vector3 ((transform.position.x + 0.01f), transform.position.y, 0);
+	void OnMouseEnter() {	
+		transform.localScale = new Vector3 (transform.localScale.x + escalamiento,transform.localScale.y + escalamiento, transform.localScale.z);
+		Vector3 seleccion = new Vector3 ((transform.position.x ), transform.position.y, 0);
 		transform.position = seleccion;
 	}
 
 	void OnMouseExit() {
-		transform.localScale = new Vector3 (transform.localScale.x - 0.01f,transform.localScale.y - 0.01f, transform.localScale.z);
-		Vector3 seleccion = new Vector3 ((transform.position.x - 0.01f), transform.position.y, 0);
+		transform.localScale = new Vector3 (transform.localScale.x - escalamiento,transform.localScale.y - escalamiento, transform.localScale.z);
+		Vector3 seleccion = new Vector3 ((transform.position.x ), transform.position.y, 0);
 		transform.position = seleccion;
 	}
 }
